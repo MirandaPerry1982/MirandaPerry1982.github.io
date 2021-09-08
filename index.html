@@ -5,79 +5,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>MirandaPerryPortfolio</title>
+    <title>Miranda Perry Portfolio</title>
 </head>
-<body class="Body">
-    <header>
-        <div class="grid-container">
-        <nav class="grid-item grid-item1">
-            <a href="#Me">About Me</a>
-            <a href="#WorkExamples">Work Examples</a>
-            <a href="#Contact">Contact</a>
-            <a href="#Skills">Skills</a>
-        </nav>
-        <h1 class="grid-item grid-item2">Full Stack Imagination</h1>
-        <h2 class="grid-item grid-item3">Welcome to my journey as a full stack web developer.</h2>
-        <img class="grid-item grid-item4" src="images\CoolComputer.jpg" alt="picture of multiple monitors">
+
+<body class ="body">
+    <header class ="header">
+        <div class ="header-container">
+
+       <h1 class ="name">Perry Programming</h1>
+
+        <h2 class="introduction">Welcome to my journey as a full stack software developer</h2>
+        <div class ="nav-bar">
+            <a href="#me" class ="btn btn1">About Me</a>
+            <a  href="#tech" class ="btn btn1">Skills</a>
+            <a href="#work" class ="btn btn1" >Projects</a>
+            <a href="#contact" class ="btn btn1">Contact</a>
+        </div>
     </div>
     </header>
-    
-    <div class="grid-container2">
-    <section class="AboutMe">
-        <h2 id ="Me" class="grid-item grid-item5">About Me</h2>
-        <h2 class="grid-item grid-item6">Hi, I'm Miranda. Nice to meet you. I am an aspiring full stack
-            web developer currently enrolled in the WeCanCodeIt 
-            web development bootcamp located in Cleveland, Ohio.
-            I am focused on building my skill set one problem solve 
-            at a time.
-        </h2>
-        <h2 id="Contact" class="grid-item grid-item7">Here's where to find me:</h2>
-        <h3 class="grid-item grid-item8">mirandaperry1982@Gmail.com</h3>
 
-        <h2 class= "grid-item grid-item9">Networking Links</h2>
-        <a class= "grid-item grid-item10" href="www.linkedin.com/in/miranda-perry1982"><button>LinkedIn</button></a>
-        <a class= "grid-item grid-item11" href="https://github.com/2021-Spring-Part-Time/virtual-pet-shelter-MirandaPerry1982.git"><button>GitHub</button></a>
+<div class ="about-me-container">
+    <h2 id ="me" class ="about-me-title">Miranda Perry</h2>
 
-        <h2 class = "grid-item grid-item12" id="Skills">Skills</h2>
-        <ul class = "grid-item grid-item17">
-            <li class ="list-item1">Java</li>
-            <li class ="list-item2">html</li>
-            <li class ="list-item3">CSS</li>
-            <li class ="list-item4">Intellij</li>
-            <li class ="list-item5">Visual Studio Code</li>
-            <li class ="list-item6">TDD</li>
-            <li class ="list-item7">GitHub</li>
-            <li class ="list-item8">Problem Solver</li>
-        </ul>
-    </section>
+    <div class= "about-me-container-2">
+    <img class="profile-pic" src = "images\ProfilePicEdit3.jpg" alt ="profile pic">
+    <p class="about-me-text">My name is Miranda Perry. Nice to meet you. I am an aspiring full stack software developer
+        recently graduated from We Can Code It boot camp in Cleveland, Ohio. I have a newfound passion
+        for building engaging, user friendly websites, applications and games. I have always had an 
+        interest in the tech field and am currently working on building my language and technical 
+        skills set. Each project is a new adventure and learning experience.
+    </p>
+</div>
+
+
+<div class="about-me-container-3">
+    <h3 class ="hobbies-text">I love coding, but sometimes I do other stuff too.</h3>
+    <ul class ="hobbies-list">
+        <li>I enjoy playing my guitar</li>
+        <li>I can often be found researching a new skill on youtube</li>
+        <li>I like getting to know people while learning new board/tabletop games together</li>
+        <li>For relaxation I dabble in creative writing and puzzles</li>
+    </ul>
+</div>
+</div>
+
+<div class ="tech-skills-container">
+    <h2 id ="tech" class ="tech-skills-title">Technical Skills</h2>
+    <div class ="tech-skills-container-2">
+    <ul>
+        <li>Java</li>
+        <li>Spring frameworks</li>
+        <li>Thymeleaf</li>
+        <li>Javascript</li>
+        <li>MVC</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>TDD</li>
+    </ul>
+
+    <ul>
+        <li>OOP</li>
+        <li>JSON</li>
+        <li>React</li>
+        <li>Rest Apis</li>
+        <li>Responsive Design/mobile</li>
+        <li>Relational databases</li>
+        <li>Source control/Github</li>
+        <li>Agile(scrum)</li>
+    </ul>
+</div>
+</div>
+
+<div class ="work-wrapper-container">
+<h2 id ="work" class ="work-title">Work Experience</h2>
+
+<div class ="work-container">
+<div class ="work-container-1">
+    <h3 class ="work-project-title">Space Kidet Learning Application</h3>
+    <p class ="work-description">Single page application using APIs, javascript, HTML and CSS  </p>
+    <a href ="https://github.com/MirandaPerry1982/team-4-spa-repo"><img class="work-pics" src="images\Space kidet screen capture.PNG" alt="code pic"></a>
+</div>
+<div class ="work-container-1">
+    <h3 class ="work-project-title">Donut Maker</h3>
+    <p class ="work-description">Clicker game using Javascript, HTML, and CSS</p>
+    <a href ="https://github.com/MirandaPerry1982/donut-clicker-MirandaPerry1982"><img class ="work-pics" src ="images\DonutMaker.jpg" alt="code pic"></a>
+</div>
+<div class ="work-container-1">
+    <h3 class ="work-project-title">Guitar Review Website</h3>
+    <p class ="work-description">Review site using MVC, Java, Thymeleaf templates and CSS</p>
+    <a href ="https://github.com/MirandaPerry1982/reviews-mvc-MirandaPerry1982"><img class ="work-pics" src ="images\ReviewCodeCapture.jpg" alt ="code pic"></a>
+</div>
+</div>
+
+<div class ="work-container">
+    <div class ="work-container-1">
+        <h3 class ="work-project-title">Mock Trekking/Travel Website</h3>
+        <p class ="work-description">Team collaboration creating Dynamic Travel site using MVC, Thymeleaf, Javascript, HTML and CSS </p>
+        <a href ="https://github.com/MirandaPerry1982/team-5-trek"><img class ="work-pics" src ="images\TrekkingPic.PNG" alt ="code pic"></a>
     </div>
-    
-    <div class ="grid-container3">
-        <article class="VirtualPet">
-            <h2 id="WorkExamples" class ="grid-item grid-item13">Here is some of my work</h2>
-            <h3 class ="grid-item grid-item14">Virtual Pet Project (Can be viewed in GitHub)</h3>
-            <h4 class ="grid-item grid-item15">Skills and tech used:  Java  Intellij</h4>
-            <img class = "grid-item grid-item16" id ="PetPic" src="images\VirtualPet.jpg" alt="screenshot of code">
-        </article>
-
-        <article class="PetShelter">    
-            <h3 class ="grid-item grid-item18">Virtual Pet Shelter Project (Can be viewed in GitHub)</h3>
-            <h4 class ="grid-item grid-item19">Skills and tech used: Java Intellij TDD</h4>
-            <img class = "grid-item grid-item20" src="images\PetShelter.jpg" alt="screenshot of code">
-        </article>    
-
-        <article class="ShelterAmok">
-            <h3 class ="grid-item grid-item21">Virtual Pet Shelter Amok Project (Can be viewed in GitHub)</h3>
-            <h4 class ="grid-item grid-item22">Skills and tech used: Java Intellij TDD</h4>
-            <img class ="grid-item grid-item23" src="images\PetsAmok.jpg" alt="screenshot of code">
-        </article>
+    <div class ="work-container-1">
+        <h3 class ="work-project-title">Hospital information database</h3>
+        <p class ="work-description">Java application using OOP,TDD, and CRUD to input employees and duties as well as change variable views upon a condition</p>
+        <a href ="https://github.com/MirandaPerry1982/hospital-demo"><img class ="work-pics" src ="images\HospitalCodePic2.PNG" alt ="code pic"></a>
     </div>
-        <footer>made by me 2021</footer>
-    
+    <div class ="work-container-1">
+        <h3 class ="work-project-title">Girl Scout Cookie Order</h3>
+        <p class ="work-description">Array List Project using Java, TDD, and OOP to keep track of varieties, quantity and number purchased with remove option.</p>
+        <a href ="https://github.com/MirandaPerry1982/cookie-orders-MirandaPerry1982"><img class ="work-pics" src ="images\CookieOrderCodePic.PNG" alt ="code pic"></a>
+    </div>
+</div>
 
-   
-   
+</div>
 
+<h2 id ="contact" class ="contact-title">Here's where to find me!</h2>
+<div class ="contact-container">
     
+    <h3 class="contact-email">mirandaperry1982@Gmail.com</h3>
+    <a class ="link link1" href="https://github.com/MirandaPerry1982">GitHub</a>
+    <a class ="link link1" href="https://www.linkedin.com/in/mirandaperry1982">Linkedin</a>
+</div>
+
+
+
+    <footer class="footer">PerryProgramming © 2021</footer>
 </body>
 </html>
